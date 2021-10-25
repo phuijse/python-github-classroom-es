@@ -1,39 +1,39 @@
-# Template assignment (Python)
+# Plantilla para tarea (Python)
 
-This is a template to create Python autograded assignments for [github classroom](https://classroom.github.com/classrooms)
+Esta es una plantilla para crear una tarea auto-corregida (autograded) en [github classroom](https://classroom.github.com/classrooms)
 
-## Instructions for students
+## Instrucciones para los estudiantes
 
-- Implement your solutions in `assignment.py`
-- The tests in `test_assignment.py` can be inspected but do not modify them
-- We expected you to follow the [ACM Code of Ethics](https://www.acm.org/code-of-ethics)
-
-
-## Instructions for teachers 
-
-(Delete this section of the README in the final assignment)
-
-### Setting up your classroom 
-
-- [Create a github organization](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch) to host your assignments
-- [Create your classroom using the recently created organization](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/manage-classrooms)
-- (Optionally) Upload your roster of students
+- Implemente sus soluciones en `tarea.py`
+- Los *tests* en `test_tarea.py` pueden inspeccionarse pero no modificarse
+- Se espera que sigan el [código de ética de la ACM](https://www.acm.org/code-of-ethics)
 
 
-### Setting up the starter-code for your assignment 
+## Instrucciones para profesores
 
-- Create the **private** repository for your assignments [using this repository as template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
-- Modify `assignment.py` and `test_assignment.py` to suit your needs
-- Modify `requirements.txt` with the libraries needed to evaluate the codes
-- Modify `.github/classroom/autograding.json` to set your tests
-- (Optionally) If you added new files that need to be tested then modify `.github/workflow/classroom.yaml` accordingly (see comment on line 6)
+(Borre esta sección del README cuando termine de redactar la tarea)
+
+### Configurando su *classroom*
+
+- [Cree una organización de github](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch) para alojar las tareas
+- [Cree un *classroom* usando la organización recién creada](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/manage-classrooms)
+- (Opcional) Suba la lista (*roster*) de estudiantes
 
 
-### Creating the assignment in github classroom (everytime you )
+### Configurando el código inicial para su tarea
 
-- Select your classroom in the [github classroom interface](https://classroom.github.com/classrooms)
-- Click the green "New assignment" button. Set a title and deadline. Choose an individual or group/team assignment
-- Leave the repository as private: that way only you and the group/team members can see the student's repository
-- Add your repository (starter code) as template repository. 
-- Do not add autograding tests with the interface (they are already on your repo)
-- A link to distribute the assignment will be created. When students accept the assignment through the link a repository will be created in the organization
+- Cree un repositorio **privado** para su tarea [usando este repositorio como plantilla (*template*)](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) dentro de la organización
+- Modifique `tarea.py` y `test_tarea.py` según sus necesidades
+- Agregue en `requirements.txt` las librerías que se importan en `test_tarea.py`
+- Modifique `.github/classroom/autograding.json` para configurar sus *tests*
+- (Opcional) Si añadió nuevos archivos que deben ser *testeados* entonces modifique `.github/workflow/classroom.yaml` (ver comentario en la linea 6)
+
+
+### Crear una tarea en *github classroom*
+
+- Seleccione su *classroom* en la [interfaz de github classroom](https://classroom.github.com/classrooms)
+- Haga click en el boton verde "New assignment". Escoja el título y la fecha límite (*deadline*). Selecciona si la tarea es individual o en grupo
+- Deje el repositorio como privado: de esa manera sólo usted y los miembros del grupo pueden ver los repositorios
+- Agregue el repositorio de código inicial (sección anterior) 
+- No incorpore pruebas autocorregidas en la interfaz (ya están incorporadas en su repositorio)
+- Un enlace para distribuir la tarea se creará. Cuando los estudiantes acepten la tarea haciendo click en el link se creara un repositorio privado en la organización
