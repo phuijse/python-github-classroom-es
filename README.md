@@ -4,8 +4,11 @@ Esta es una plantilla para crear una tarea auto-corregida (autograded) en [githu
 
 ## Instrucciones para los estudiantes
 
-- Implemente sus soluciones en `tarea.py`
+- Lean cuidadosamente `enunciado.ipynb` y completen donde corresponda
+- Implemente las funciones y clases que se piden en `tarea.py`
 - Los *tests* en `test_tarea.py` pueden inspeccionarse pero no modificarse
+- Los resultados se evaluarán en base al último *commit* antes de la fecha y hora de entrega
+- Haga *commits* con sus avances regularmente. Se evaluará su progreso en base al histórico de *commits*. 
 - Se espera que sigan el [código de ética de la ACM](https://www.acm.org/code-of-ethics)
 
 
